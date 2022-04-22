@@ -15,7 +15,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"username\": \"Yousuf Rawy\",\r\n    \"password\": \"12345\",\r\n    \"email\": \"YousufRawy@gmail.com\"\r\n}",
+							"raw": "{\r\n    \"username\": \"Yousuf Rawy2\",\r\n    \"password\": \"12345\",\r\n    \"email\": \"YousufRawy2@gmail.com\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -45,7 +45,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"username\": \"Ahmed Rawy\",\r\n    \"password\": \"12345\"\r\n}",
+							"raw": "{\r\n    \"username\": \"Yousuf Rawy\",\r\n    \"password\": \"12345\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -115,7 +115,18 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": ""
+							"raw": "http://localhost:5000/api/users/find/6251dc5ebcae77d6de70b379",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"users",
+								"find",
+								"6251dc5ebcae77d6de70b379"
+							]
 						}
 					},
 					"response": []
@@ -211,7 +222,17 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": ""
+							"raw": "http://localhost:5000/api/phone/6262caad0622a37b43381173",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"phone",
+								"6262caad0622a37b43381173"
+							]
 						}
 					},
 					"response": []
@@ -222,7 +243,18 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": ""
+							"raw": "http://localhost:5000/api/phone/filter/Nokia",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"phone",
+								"filter",
+								"Nokia"
+							]
 						}
 					},
 					"response": []
