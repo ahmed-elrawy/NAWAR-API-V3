@@ -139,4 +139,15 @@ router.get("/filter/:name", async (req, res) => {
   }
 });
 
+
+router.delete("/:id",verifyTokenAndAuthorization, async (req, res) => {
+  console.log("hello");
+  try {
+    await Phone.findByIdAndDelete(req.params.id);
+
+    res.status(200).json("phone has been deleted...");
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
 module.exports = router;
