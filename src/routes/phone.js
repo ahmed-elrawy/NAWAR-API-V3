@@ -141,7 +141,6 @@ router.get("/filter/:name", async (req, res) => {
 
 
 router.delete("/:id",verifyTokenAndAuthorization, async (req, res) => {
-  console.log("hello");
   try {
     await Phone.findByIdAndDelete(req.params.id);
 
