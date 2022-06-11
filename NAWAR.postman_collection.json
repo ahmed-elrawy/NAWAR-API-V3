@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "1cbeec9e-3dd1-45a7-989b-d59b5a9a5ac2",
+		"_postman_id": "c772b688-6b08-4738-a1a9-beaf10d8375c",
 		"name": "NAWAR",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -15,7 +15,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"username\": \"Yousuf Rawy2\",\r\n    \"password\": \"12345\",\r\n    \"email\": \"YousufRawy2@gmail.com\"\r\n}",
+							"raw": "{\r\n    \"username\": \"Yousuf Rawy\",\r\n    \"password\": \"12345\",\r\n    \"email\": \"YousufRawy@gmail.com\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -45,7 +45,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"username\": \"Yousuf Rawy\",\r\n    \"password\": \"12345\"\r\n}",
+							"raw": "{\r\n    \"username\": \"Ahmed Rawy\",\r\n    \"password\": \"12345\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -102,52 +102,23 @@
 					"name": "Delete user",
 					"request": {
 						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": ""
-						}
+						"header": []
 					},
 					"response": []
 				},
 				{
-					"name": "Get User By ID",
+					"name": "Get user",
 					"request": {
 						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "http://localhost:5000/api/users/find/6251dc5ebcae77d6de70b379",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "5000",
-							"path": [
-								"api",
-								"users",
-								"find",
-								"6251dc5ebcae77d6de70b379"
-							]
-						}
+						"header": []
 					},
 					"response": []
 				},
 				{
-					"name": "Get All  Users",
+					"name": "Get all  users",
 					"request": {
 						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "http://localhost:5000/api/users",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "5000",
-							"path": [
-								"api",
-								"users"
-							]
-						}
+						"header": []
 					},
 					"response": []
 				}
@@ -217,50 +188,7 @@
 					"response": []
 				},
 				{
-					"name": "Get Phone By ID",
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "http://localhost:5000/api/phone/6262caad0622a37b43381173",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "5000",
-							"path": [
-								"api",
-								"phone",
-								"6262caad0622a37b43381173"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "Get Phone By Model",
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "http://localhost:5000/api/phone/filter/Nokia",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "5000",
-							"path": [
-								"api",
-								"phone",
-								"filter",
-								"Nokia"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "All Phone",
+					"name": "Get ohone",
 					"request": {
 						"method": "GET",
 						"header": []
